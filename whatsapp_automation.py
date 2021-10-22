@@ -3,7 +3,9 @@ try:
     import termcolor
 except:
     import os
-    
+
+    print("Installing requirements . . . .")
+
     os.system("pip3 install pywhatkit")
     os.system("pip3 install termcolor")
     
